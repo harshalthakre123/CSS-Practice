@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.headnav{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(27, 27, 131);
+    color: ghostwhite;
+}
+.findus{
+    font-size: medium;
+}
+.hero{
+    height: 100vh;
+    background: url('/SinglePageWebsite/hero\ section.jpg') no-repeat center center/cover;
+    }
+.navbar nav ul{
+    padding-left: 215px;
+    list-style: none;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: small;
+}
+#navbar{
+    text-decoration: none;
+    color: black;
+}
+.imgtext{
+    color: ghostwhite;
+    text-align: center;
+    margin-top: 200px;
+    
+}
+#head1{
+    font-size: 25px;
+}
+#head2{
+    font-size: 35px;
+}
+.selection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 740px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 310px;
+}
+#continent{
+    height: 40px;
+    width: 185px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#countries{
+    height: 40px;
+    width: 185px;
+}
+#budget{
+    height: 40px;
+    width: 185px;
+}
+.submit{
+    background-color: orange;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 40px;
+    width: 185px;
+    text-align: center;
+    
+    
+}
+#submit{
+    color: ghostwhite;
+    text-decoration: none; 
+}
+.sec2{
+    text-align: center;
+    height: 100vh;
+}
+.head{
+    margin-bottom: 10px;
+}
+.destinations{  
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}   
+.rated_dest{
+    height: 195px;
+    width: 240px;
+    background-color: rgb(204, 202, 202);
+    margin: 15px;
+}
+.footer{
+    height: 75vh;
+    background: url('/SinglePageWebsite/footer.jpg') no-repeat center center/cover;
+    margin-top: 10px;
+}
+.fhead{
+    color: ghostwhite;
+    text-align: center;
+    padding-top: 50px;
+}
+.fmain{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.foot{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: beige;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    color: ghostwhite;
+    padding: 20px;
+}
